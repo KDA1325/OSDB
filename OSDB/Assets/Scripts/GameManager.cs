@@ -10,26 +10,17 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    //public bool isGameover = false;
-    //public Text scoreText;
-    //public GameObject gameoverUI;
-
-    //DBController dBController;
     PHPLogIn phpLogIn;
     PHPCreateCharacter phpCreateCharacter;
-    //ServerManager serverManager;
 
     public bool isLoggIn = false;
     string userID;
     string _job;
-    //public Button serverBtn;
+
     public Text idText;
     public Text checkText;
     public Text nickNameText;
-    public InputField passInputField; //패그워드가 설정된 텍스트는 텍스트UI 가 아니라 상위의 인풋 필드에 저장이 됨
-    //ArrayList gunList = new ArrayList();
-
-    private int score = 0;
+    public InputField passInputField; //패스워드가 설정된 텍스트는 텍스트UI 가 아니라 상위의 인풋 필드에 저장이 됨
 
     public GameObject signInUI;
     public GameObject serverUI;
@@ -46,11 +37,7 @@ public class GameManager : MonoBehaviour
      
     public GameObject[] characterSlots;
 
-    private GameObject signOutBtn;
-    private GameObject BackSelectServerBtn;
     public GameObject CreateCharacterBtn;
-    //public Dictionary<string, Sprite> characterSprites;
-
 
     void Awake()
     {

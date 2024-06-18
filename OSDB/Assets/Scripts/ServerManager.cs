@@ -55,6 +55,8 @@ public class ServerManager : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
     }
+
+    // 서버 선택
     public void SelectServer()
     {
         GameObject serverBtn = EventSystem.current.currentSelectedGameObject;
@@ -74,14 +76,17 @@ public class ServerManager : MonoBehaviour
         }
     }
 
+    // 서버 정보 불러옴
     public void GetServerInfo(string response)
     {
         string[] infos = response.Split(';');
         population = infos[0]; 
       
+        // 서버 정보를 UI에 갱신
         SetServerInfo();
     }
 
+    // 캐릭터 선택
     public void SelectCharacter()
     {
         GameObject characterBtn = EventSystem.current.currentSelectedGameObject;
@@ -101,6 +106,7 @@ public class ServerManager : MonoBehaviour
         }
     }
 
+    // 유저가 보유한 캐릭터만 보여줌
     public void DisplayCharacterSelection(string response)
     {
 
@@ -126,8 +132,10 @@ public class ServerManager : MonoBehaviour
             }
         }
 
+        // 현재 서버에 보유한 캐릭터가 없다면
         if (response == "NO_CHARACTER")
         {
+            // 팝업 UI 활성화
             GameManager.instance.popUpUI.SetActive(true);
             return;
         }
@@ -135,6 +143,8 @@ public class ServerManager : MonoBehaviour
         GameManager.instance.selectCharacterUI.SetActive(true);
         GameManager.instance.CreateCharacterBtn.SetActive(true);
     }
+
+    // 선택한 캐릭터의 스탯을 보여줌
     public void DisplayCharacterStat(string response)
     {
         string[] stats = response.Split(';');
@@ -165,7 +175,7 @@ public class ServerManager : MonoBehaviour
         GameManager.instance.CreateCharacterBtn.SetActive(false);
     }
 
-
+    // 서버 정보를 UI에 갱신
     public void SetServerInfo()
     {
         serverNameText.text = $"서버: {serverName}";
@@ -175,6 +185,7 @@ public class ServerManager : MonoBehaviour
         Debug.Log("인구 수 텍스트 갱신");
     }
 
+    // 캐릭터 스탯을 UI에 갱신
     public void SetCharacterStat()
     {
         levelText.text = $"Lv. {_level}";
@@ -188,6 +199,7 @@ public class ServerManager : MonoBehaviour
         Debug.Log("스탯 갱신");
     }
 
+    // 생성할 캐릭터 직업 선택 
     public void SelectCreateJob()
     {
         GameObject characterBtn = EventSystem.current.currentSelectedGameObject;
