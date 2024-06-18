@@ -81,6 +81,26 @@ public class ServerManager : MonoBehaviour
       
         SetServerInfo();
     }
+
+    public void SelectCharacter()
+    {
+        GameObject characterBtn = EventSystem.current.currentSelectedGameObject;
+        if (characterBtn != null)
+        {
+            GameManager.instance.characterStatUI.SetActive(false);
+            
+            nickName = characterBtn.GetComponentInChildren<Text>().text;
+            
+            Debug.Log(nickName);
+
+            phpSelectCharacter.SelectCharacter(nickName);
+        }
+        else
+        {
+            Debug.Log("Null");
+        }
+    }
+
     public void DisplayCharacterSelection(string response)
     {
         string[] characters = response.Split(';');
@@ -161,11 +181,6 @@ public class ServerManager : MonoBehaviour
         Debug.Log("Ω∫≈» ∞ªΩ≈");
     }
 
-    public void SelectCharacter()
-    {
-        nickName = characterSlotManager.nickNameText.text;
-        phpSelectCharacter.SelectCharacter(nickName);
-    }
 
     public static ServerManager Instance
     {

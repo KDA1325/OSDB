@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] characterSlots;
 
     public GameObject signOutBtn;
+    public GameObject BackSelectServerBtn;
     //public Dictionary<string, Sprite> characterSprites;
 
 
@@ -88,6 +89,12 @@ public class GameManager : MonoBehaviour
     {
         serverUI.SetActive(false);
         signInUI.SetActive(true);
+    }
+    public void ClickedBackSelectServerBtn()
+    {
+        selectCharacterUI.SetActive(false);
+        characterStatUI.SetActive(false);
+        serverUI.SetActive(true);
     }
     public static GameManager Instance
     {
