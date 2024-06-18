@@ -7,7 +7,7 @@ using UnityEngine.Networking;
 public class PHPSelectServer : MonoBehaviour
 {
     public string ServerURL = "http://localhost/SelectServer.php";
-    public bool isLoggedIn = false;
+    //public bool isLoggedIn = false;
 
 
     public void SelectServer(string id, string serverName)
@@ -34,7 +34,7 @@ public class PHPSelectServer : MonoBehaviour
                 
                 Debug.Log(www.downloadHandler.text);
 
-                GameManager.instance.DisplayCharacterSelection(www.downloadHandler.text);
+                ServerManager.instance.DisplayCharacterSelection(www.downloadHandler.text);
             }
         }
     }
