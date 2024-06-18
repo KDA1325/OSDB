@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     public GameObject serverUI;
     public GameObject selectCharacterUI;
     public GameObject characterStatUI;
+    public GameObject popUpUI;
     
     public GameObject[] characterSlots;
 
@@ -96,6 +97,12 @@ public class GameManager : MonoBehaviour
         characterStatUI.SetActive(false);
         serverUI.SetActive(true);
     }
+
+    public void ClickedCancleBtn()
+    {
+        popUpUI.SetActive(false);
+    }
+
     public static GameManager Instance
     {
         get 
@@ -111,37 +118,4 @@ public class GameManager : MonoBehaviour
             return instance;
         }
     }
-    
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        //if(isGameover && Input.GetMouseButtonDown(0))
-        //{
-        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //}
-    }
-
-    //public void AddScore(int newScore)
-    //{
-    //    if(!isGameover)
-    //    {
-    //        score += newScore;
-    //        scoreText.text = "Score :" + score;
-    //    }
-
-    //}
-
-    //public void OnPlayerDead()
-    //{
-    //    isGameover = true;
-    //    gameoverUI.SetActive(true);
-    //}
-
-    //public void StartGame(string id)
-    //{
-    //    SceneManager.LoadScene("SampleScene");
-    //}
-
 }

@@ -15,9 +15,9 @@ public class ServerManager : MonoBehaviour
     string id;
     string serverName;
     public string nickName;
-    public string job;
     public string population;
     public string _level;
+    public string _job;
     public string _hp;
     public string _mp;
     public string _str;
@@ -103,18 +103,20 @@ public class ServerManager : MonoBehaviour
 
     public void DisplayCharacterSelection(string response)
     {
+
         string[] characters = response.Split(';');
+
         for (int i = 0; i < GameManager.instance.characterSlots.Length; i++)
         {
             if (i < characters.Length - 1)
             {
                 string[] info = characters[i].Split(',');
                 nickName = info[0];
-                job = info[1];
+                _job = info[1];
 
                 characterSlotManager = GameManager.instance.characterSlots[i].GetComponent<CharacterSlotManager>();
 
-                characterSlotManager.SetCharacter(nickName, job);
+                characterSlotManager.SetCharacter(nickName, _job);
 
                 GameManager.instance.characterSlots[i].SetActive(true);
             }
@@ -122,6 +124,12 @@ public class ServerManager : MonoBehaviour
             {
                 GameManager.instance.characterSlots[i].SetActive(false);
             }
+        }
+
+        if (response == "NO_CHARACTER")
+        {
+            GameManager.instance.popUpUI.SetActive(true);
+            return;
         }
 
         GameManager.instance.selectCharacterUI.SetActive(true);
@@ -135,12 +143,13 @@ public class ServerManager : MonoBehaviour
             {
                 string[] stat = stats[i].Split(',');
                 _level = stat[0];
-                _hp = stat[1];
-                _mp = stat[2];
-                _str = stat[3];
-                _int = stat[4];
-                _dex = stat[5];
-                _luk = stat[6];
+                _job = stat[1];
+                _hp = stat[2];
+                _mp = stat[3];
+                _str = stat[4];
+                _int = stat[5];
+                _dex = stat[6];
+                _luk = stat[7];
 
                 //characterSlotManager = GameManager.instance.characterSlots[i].GetComponent<CharacterSlotManager>();
 
@@ -172,7 +181,7 @@ public class ServerManager : MonoBehaviour
     {
         levelText.text = $"Lv. {_level}";
         nickNameText.text = nickName;
-        jobText.text = job;
+        jobText.text = _job;
         strText.text = $"STR: {_str}";
         intText.text = $"INT: {_int}";
         dexText.text = $"DEX: {_dex}";
