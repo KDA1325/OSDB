@@ -29,9 +29,11 @@ public class GameManager : MonoBehaviour
     public GameObject signInUI;
     public GameObject serverUI;
     public GameObject selectCharacterUI;
+    public GameObject characterStatUI;
     
     public GameObject[] characterSlots;
 
+    public GameObject signOutBtn;
     //public Dictionary<string, Sprite> characterSprites;
 
 
@@ -76,12 +78,17 @@ public class GameManager : MonoBehaviour
             Debug.Log("로그인 실패! 아이디와 비밀번호를 확인 하세요!");
         }
     }
-    public void SelectedServerSelectedServer()
+    public void SelectedServer()
     {
         serverUI.SetActive(false);
         selectCharacterUI.SetActive(true);
     }
 
+    public void ClickedSignOutBtn()
+    {
+        serverUI.SetActive(false);
+        signInUI.SetActive(true);
+    }
     public static GameManager Instance
     {
         get 

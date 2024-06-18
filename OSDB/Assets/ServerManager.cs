@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -9,6 +10,7 @@ public class ServerManager : MonoBehaviour
     CharacterSlotManager characterSlotManager;
     PHPSelectServer phpSelectServer;
     PHPSelectCharacter phpSelectCharacter;
+    PHPGetServerInfo phpGetServerInfo;
 
     string id;
     string serverName;
@@ -25,6 +27,15 @@ public class ServerManager : MonoBehaviour
 
     public Text serverNameText;
     public Text populationText;
+    public Text levelText;
+    public Text nickNameText;
+    public Text jobText;
+    //public Text hpText;
+    //public Text mpText;
+    public Text strText;
+    public Text intText;
+    public Text dexText;
+    public Text lukText;
 
     private void Awake()
     {
@@ -34,6 +45,7 @@ public class ServerManager : MonoBehaviour
 
             phpSelectServer = GetComponent<PHPSelectServer>();
             phpSelectCharacter = GetComponent<PHPSelectCharacter>();
+            phpGetServerInfo = GetComponent<PHPGetServerInfo>();
             characterSlotManager = GetComponent<CharacterSlotManager>();
         }
         else
@@ -53,8 +65,8 @@ public class ServerManager : MonoBehaviour
             Debug.Log(id);
             Debug.Log(serverName);
             phpSelectServer.SelectServer(id, serverName);
-
-            GameManager.instance.SelectedServerSelectedServer();
+            phpGetServerInfo.GetServerInfo(serverName);
+            GameManager.instance.SelectedServer();
         }
         else
         {
@@ -62,6 +74,13 @@ public class ServerManager : MonoBehaviour
         }
     }
 
+    public void GetServerInfo(string response)
+    {
+        string[] infos = response.Split(';');
+        population = infos[0]; 
+      
+        SetServerInfo();
+    }
     public void DisplayCharacterSelection(string response)
     {
         string[] characters = response.Split(';');
@@ -72,7 +91,6 @@ public class ServerManager : MonoBehaviour
                 string[] info = characters[i].Split(',');
                 nickName = info[0];
                 job = info[1];
-                population = info[2];
 
                 characterSlotManager = GameManager.instance.characterSlots[i].GetComponent<CharacterSlotManager>();
 
@@ -86,17 +104,16 @@ public class ServerManager : MonoBehaviour
             }
         }
 
-        DisplayServerInfo();
         GameManager.instance.selectCharacterUI.SetActive(true);
     }
     public void DisplayCharacterStat(string response)
     {
-        string[] characters = response.Split(';');
+        string[] stats = response.Split(';');
         for (int i = 0; i < GameManager.instance.characterSlots.Length; i++)
         {
-            if (i < characters.Length - 1)
+            if (i < stats.Length - 1)
             {
-                string[] stat = characters[i].Split(',');
+                string[] stat = stats[i].Split(',');
                 _level = stat[0];
                 _hp = stat[1];
                 _mp = stat[2];
@@ -109,20 +126,20 @@ public class ServerManager : MonoBehaviour
 
                 //characterSlotManager.SetCharacter(nickName, job);
 
-                //GameManager.instance.characterSlots[i].SetActive(true);
+                GameManager.instance.characterStatUI.SetActive(true);
             }
             else
             {
-                GameManager.instance.characterSlots[i].SetActive(false);
+                GameManager.instance.characterStatUI.SetActive(false);
             }
         }
 
-        DisplayServerInfo();
-        GameManager.instance.selectCharacterUI.SetActive(true);
+        SetCharacterStat();
+        GameManager.instance.characterStatUI.SetActive(true);
     }
 
 
-    public void DisplayServerInfo()
+    public void SetServerInfo()
     {
         serverNameText.text = $"서버: {serverName}";
         Debug.Log("서버 텍스트 갱신");
@@ -131,10 +148,23 @@ public class ServerManager : MonoBehaviour
         Debug.Log("인구 수 텍스트 갱신");
     }
 
+    public void SetCharacterStat()
+    {
+        levelText.text = $"Lv. {_level}";
+        nickNameText.text = nickName;
+        jobText.text = job;
+        strText.text = $"STR: {_str}";
+        intText.text = $"INT: {_int}";
+        dexText.text = $"DEX: {_dex}";
+        lukText.text = $"LUK: {_luk}";
+
+        Debug.Log("스탯 갱신");
+    }
+
     public void SelectCharacter()
     {
         nickName = characterSlotManager.nickNameText.text;
-
+        phpSelectCharacter.SelectCharacter(nickName);
     }
 
     public static ServerManager Instance

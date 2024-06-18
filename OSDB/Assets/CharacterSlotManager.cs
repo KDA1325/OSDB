@@ -11,7 +11,7 @@ public class CharacterSlotManager : MonoBehaviour
     void Awake()
     {
         characterImage = transform.Find("CharacterImage").GetComponentInChildren<Image>();
-        nickNameText = transform.Find("NickName").GetComponentInChildren<Text>();
+        //nickNameText = transform.Find("NickName").GetComponentInChildren<Text>();
     }
 
     public void SetCharacter(string nickName, string jobName)
