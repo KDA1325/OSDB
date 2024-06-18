@@ -13,7 +13,7 @@ public class ServerManager : MonoBehaviour
     PHPGetServerInfo phpGetServerInfo;
 
     string id;
-    string serverName;
+    public string serverName;
     public string nickName;
     public string population;
     public string _level;
@@ -133,6 +133,7 @@ public class ServerManager : MonoBehaviour
         }
 
         GameManager.instance.selectCharacterUI.SetActive(true);
+        GameManager.instance.CreateCharacterBtn.SetActive(true);
     }
     public void DisplayCharacterStat(string response)
     {
@@ -151,10 +152,6 @@ public class ServerManager : MonoBehaviour
                 _dex = stat[6];
                 _luk = stat[7];
 
-                //characterSlotManager = GameManager.instance.characterSlots[i].GetComponent<CharacterSlotManager>();
-
-                //characterSlotManager.SetCharacter(nickName, job);
-
                 GameManager.instance.characterStatUI.SetActive(true);
             }
             else
@@ -165,6 +162,7 @@ public class ServerManager : MonoBehaviour
 
         SetCharacterStat();
         GameManager.instance.characterStatUI.SetActive(true);
+        GameManager.instance.CreateCharacterBtn.SetActive(false);
     }
 
 
@@ -190,6 +188,23 @@ public class ServerManager : MonoBehaviour
         Debug.Log("스탯 갱신");
     }
 
+    public void SelectCreateJob()
+    {
+        GameObject characterBtn = EventSystem.current.currentSelectedGameObject;
+        if (characterBtn != null)
+        {
+            _job = characterBtn.GetComponentInChildren<Text>().text;
+
+            Debug.Log(_job + "선택");
+
+            GameManager.instance.CheckPopUpUI.SetActive(true);
+            GameManager.instance.CheckCreateJob(_job);
+        }
+        else
+        {
+            Debug.Log("Null");
+        }
+    }
 
     public static ServerManager Instance
     {
