@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|solutionrelative:assets\\characterslotmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|d:\\projects\\osdb\\osdb\\assets\\phpselectserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|D:\\Projects\\OSDB\\OSDB\\assets\\phpselectserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|solutionrelative:assets\\phpselectserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -99,8 +99,7 @@
               "RelativeToolTip": "Assets\\PHPSelectServer.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAYwCIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T08:33:15.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T08:33:15.272Z"
             }
           ]
         },
