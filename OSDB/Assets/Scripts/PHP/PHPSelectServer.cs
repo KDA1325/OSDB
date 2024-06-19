@@ -7,8 +7,6 @@ using UnityEngine.Networking;
 public class PHPSelectServer : MonoBehaviour
 {
     public string ServerURL = "http://localhost/SelectServer.php";
-    //public bool isLoggedIn = false;
-
 
     public void SelectServer(string id, string serverName)
     {
