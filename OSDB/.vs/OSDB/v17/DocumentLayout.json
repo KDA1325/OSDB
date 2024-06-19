@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\Projects\\OSDB\\OSDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|D:\\Projects\\OSDB\\OSDB\\assets\\scripts\\php\\phpselectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|d:\\projects\\osdb\\osdb\\assets\\package\\1. scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|solutionrelative:assets\\package\\1. scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|D:\\Projects\\OSDB\\OSDB\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|d:\\projects\\osdb\\osdb\\assets\\scripts\\php\\phpselectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\php\\phpselectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\php\\phpgetserverinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|d:\\projects\\osdb\\osdb\\assets\\scripts\\characterslotmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|D:\\Projects\\OSDB\\OSDB\\assets\\scripts\\characterslotmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterslotmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|D:\\Projects\\OSDB\\OSDB\\assets\\scripts\\php\\phplogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\php\\phplogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|d:\\projects\\osdb\\osdb\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{571F3669-CEDE-DB38-15BD-22857BD1B196}|Assembly-CSharp.csproj|D:\\Projects\\OSDB\\OSDB\\assets\\scripts\\servermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Projects\\OSDB\\OSDB\\Assets\\package\\1. Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\package\\1. Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\Projects\\OSDB\\OSDB\\Assets\\package\\1. Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\package\\1. Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswHAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T01:27:42.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PHPGetServerInfo.cs",
               "DocumentMoniker": "D:\\Projects\\OSDB\\OSDB\\Assets\\Scripts\\PHP\\PHPGetServerInfo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PHP\\PHPGetServerInfo.cs",
@@ -54,12 +71,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PHP\\PHPGetServerInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T21:05:56.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T21:05:56.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ServerManager.cs",
               "DocumentMoniker": "D:\\Projects\\OSDB\\OSDB\\Assets\\Scripts\\ServerManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ServerManager.cs",
@@ -71,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CharacterSlotManager.cs",
               "DocumentMoniker": "D:\\Projects\\OSDB\\OSDB\\Assets\\Scripts\\CharacterSlotManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterSlotManager.cs",
@@ -79,12 +95,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CharacterSlotManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:45:21.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T19:45:21.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PHPLogIn.cs",
               "DocumentMoniker": "D:\\Projects\\OSDB\\OSDB\\Assets\\Scripts\\PHP\\PHPLogIn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PHP\\PHPLogIn.cs",
@@ -92,12 +107,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PHP\\PHPLogIn.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T21:38:38.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T21:38:38.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PHPCreateCharacter.cs",
               "DocumentMoniker": "D:\\Projects\\OSDB\\OSDB\\Assets\\Scripts\\PHP\\PHPCreateCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PHP\\PHPCreateCharacter.cs",
@@ -105,25 +119,24 @@
               "RelativeToolTip": "Assets\\Scripts\\PHP\\PHPCreateCharacter.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAYwDUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T21:05:48.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T21:05:48.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Projects\\OSDB\\OSDB\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\Projects\\OSDB\\OSDB\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAADwvx4AAAAEAAAA",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAqwLAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T19:46:02.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PHPSelectServer.cs",
               "DocumentMoniker": "D:\\Projects\\OSDB\\OSDB\\Assets\\Scripts\\PHP\\PHPSelectServer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PHP\\PHPSelectServer.cs",
@@ -131,12 +144,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PHP\\PHPSelectServer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:09:24.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T22:09:24.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PHPSelectCharacter.cs",
               "DocumentMoniker": "D:\\Projects\\OSDB\\OSDB\\Assets\\Scripts\\PHP\\PHPSelectCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PHP\\PHPSelectCharacter.cs",

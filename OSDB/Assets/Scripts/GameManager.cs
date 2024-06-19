@@ -172,6 +172,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void ClickedGameStartBtn()
+    {
+        SceneManager.LoadScene("Main");
+    }
+
     public static GameManager Instance
     {
         get 

@@ -1,0 +1,853 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 65345 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+D:/Projects/OSDB/OSDB
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+14781
+Successfully changed project path to: D:/Projects/OSDB/OSDB
+D:/Projects/OSDB/OSDB
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36192] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 584930356 [EditorId] 584930356 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UU1F2PM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36192] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 584930356 [EditorId] 584930356 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UU1F2PM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 208.88 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/OSDB/OSDB/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005787 seconds.
+- Loaded All Assemblies, in  0.993 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 234 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling: 1496ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (213ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (659ms)
+		LoadAssemblies (71ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (657ms)
+			TypeCache.Refresh (656ms)
+				TypeCache.ScanAssembly (645ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (503ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (320ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.456 seconds
+Domain Reload Profiling: 1035ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (238ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (247.4 KB). Loaded Objects now: 4546.
+Memory consumption went from 170.1 MB to 169.8 MB.
+Total: 2.736400 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.104500 ms MarkObjects: 2.217600 ms  DeleteObjects: 0.193000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Alchemist.cs: eef8474b63f91905eaf41739bf3c5072 -> 182ae54d2d2f5a717e099a397bad83ba
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ServerManager.cs: 09105c06d5edcadce130f72871f6e868 -> 477b443ffd591b9b80b29fb7f48e8918
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/PHPGetServerInfo.cs: cee1c131e7520aed4adb94dfca5fcf1d -> 0576d028e7c79e0cfaa036cdae59c8e1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/DBController.cs: 835aa35bcc31f5215f9030479b578c5f -> 8a6c56aa21b1245af72473e6439d29b8
+  custom:scripting/monoscript/fileName/ServerBtnManager.cs: ecdbdb934e45840a44ddc7186d2c4ff5 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Barbarian.cs: 06991bdffcd1f5c6acdc3f4a51360a47 -> 89937b1e1d43ea451d0d20a54bafa8a1
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Rogue.cs: 2fa4d64265832b9841b08b5076a72c7e -> a8934a011b50cab38862a79d86fe13a3
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/StormMage.cs: 5318803ed9e8421082f1b2f84b69e264 -> b5f18c3db5f4071ca5b9e6a80b393e5d
+  custom:scripting/monoscript/fileName/PlayerController.cs: 417665ecbc391383b99ee15e672952c9 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/PHPLogIn.cs: a4e1e3f9e67c8eff3e40e3fdefbf5822 -> 6b516b2c27c727fd11d9dd2409becaa4
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/Scripts.cs: 2abada560274024bf235f99530aa3d0b -> 
+  custom:scripting/monoscript/fileName/CharacterSelector_PixelHeroes.cs: ed4e21b0ad1b8205d57253573c596440 -> c9f4ae6961ca104a844443c069acab14
+  custom:scripting/monoscript/fileName/Firemage.cs: ed9cd7a1fd67c03eed3726650a17e833 -> 0920a051b17cc5bf2dc7a60e27cabd93
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Mission1.cs: eeceac8fbd244175b7b1b8673327bf5a -> 9b4027609da4ba444d9d4e63a6998188
+  custom:scripting/monoscript/fileName/SliderRunTo1.cs: 73c58f101f6e429437bb116db7e05762 -> 
+  custom:scripting/monoscript/fileName/Necromancer.cs: 16fcba8c2cf3cb7ea75bacd98afe0f14 -> 86f1a90fc5a182b554f06cf026034568
+  custom:scripting/monoscript/fileName/Misssion3.cs: 7337842aeb9cc8b8d3b01d5e4194eea3 -> 530b4bf9a52e881e356eb695cdbdaa0f
+  custom:scripting/monoscript/fileName/PHPSelectServer.cs: b977f9aa6a6995b5c4bb8e8c1847d088 -> 418be40fe0cb4655b74f4ea44b412c85
+  custom:scripting/monoscript/fileName/JustRotate.cs: ebf81d7fd3895f1b81daf08173d4c810 -> 
+  custom:scripting/monoscript/fileName/Misssion2.cs: 501a2934648770e0c87338f256f356b0 -> 91814c463da8aa953c00b4cd886539e5
+  custom:scripting/monoscript/fileName/Druid.cs: 5a0d74177fcdfe2037b39e34906e0039 -> 2c3e4eca53f81bf5fcce823b30e9172f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/MissionController.cs: 8473b4fbe1a4ca3eec2dfb8423bdca9d -> 25e4ed25eb68defa296c7417cc118913
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BackgoundLoop.cs: 1e9b7603a832b6c99832b025286d304f -> 
+  custom:scripting/monoscript/fileName/PHPSelectCharacter.cs: a3a00d07b0bb91f8fd4e9b698e052b5c -> 4dd62c52601f8c3c48ea409747a05007
+  custom:scripting/monoscript/fileName/ScrollingObject.cs: 16943453e0c2bcb257511cf44becd66c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SliderValuePass.cs: f67912434870cfb9c8b5d2b2b82b5ea9 -> 
+  custom:scripting/monoscript/fileName/ColorSwap_PixelHeroes.cs: e4f3ffa9d01c6b2274ab889ba7f8022f -> 266514542c1fe4a7f0594272375a0c64
+  custom:scripting/monoscript/fileName/Priest.cs: 63bdf51eb16c85fb4ceec268abd4849c -> 8fa319870fbafe60897a877d121c69b6
+  custom:scripting/monoscript/fileName/CircleSlider.cs: 12893e82713c14acb558c638d2bffedb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Warlock.cs: aba8e0992d9ad9081a2449136549e884 -> 9ea707977e2d88dd3d2f79d3e34ad138
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Projectile_Rogue.cs: 7d6c2f56b6551b779fb6a24b27cf833f -> 0b0a96822555a0c06d19c056d57c82ba
+  custom:scripting/monoscript/fileName/Blademaster.cs: 550a27ea244f2d8a6f13c70fdcebe4cf -> b00cfa2d9af829c79cab520e81f3453b
+  custom:scripting/monoscript/fileName/ItemKeeper.cs: 30b477bec02a7733438243c51263eddd -> 0bae6dc56fb0df6948ec0ca9aaa5e819
+  custom:scripting/monoscript/fileName/Sensor_PixelHeroes.cs: a29eb414ec78bcf4b6d1acea8ceb3ab2 -> b7649f6ec16221802477386a7b8c1dc4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CharacterSlotManager.cs: 8ab7d4a01623f1420a8ec9d026ef9804 -> c25a344abee377b9a422b7a050dd89fd
+  custom:scripting/monoscript/fileName/IntroManager.cs: 7e37df1f844066d8f5935cf5432370da -> 6244ce9ac8cc96096ff6dc346f866a1d
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.324 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 908ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.86 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (220.6 KB). Loaded Objects now: 4551.
+Memory consumption went from 165.4 MB to 165.2 MB.
+Total: 2.510600 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.112100 ms MarkObjects: 2.015700 ms  DeleteObjects: 0.154200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Alchemist.cs: eef8474b63f91905eaf41739bf3c5072 -> 182ae54d2d2f5a717e099a397bad83ba
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ServerManager.cs: 09105c06d5edcadce130f72871f6e868 -> 477b443ffd591b9b80b29fb7f48e8918
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/PHPGetServerInfo.cs: cee1c131e7520aed4adb94dfca5fcf1d -> 0576d028e7c79e0cfaa036cdae59c8e1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/DBController.cs: 835aa35bcc31f5215f9030479b578c5f -> 8a6c56aa21b1245af72473e6439d29b8
+  custom:scripting/monoscript/fileName/ServerBtnManager.cs: ecdbdb934e45840a44ddc7186d2c4ff5 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Barbarian.cs: 06991bdffcd1f5c6acdc3f4a51360a47 -> 89937b1e1d43ea451d0d20a54bafa8a1
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Rogue.cs: 2fa4d64265832b9841b08b5076a72c7e -> a8934a011b50cab38862a79d86fe13a3
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/StormMage.cs: 5318803ed9e8421082f1b2f84b69e264 -> b5f18c3db5f4071ca5b9e6a80b393e5d
+  custom:scripting/monoscript/fileName/PlayerController.cs: 417665ecbc391383b99ee15e672952c9 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/PHPLogIn.cs: a4e1e3f9e67c8eff3e40e3fdefbf5822 -> 6b516b2c27c727fd11d9dd2409becaa4
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/Scripts.cs: 2abada560274024bf235f99530aa3d0b -> 
+  custom:scripting/monoscript/fileName/CharacterSelector_PixelHeroes.cs: ed4e21b0ad1b8205d57253573c596440 -> c9f4ae6961ca104a844443c069acab14
+  custom:scripting/monoscript/fileName/Firemage.cs: ed9cd7a1fd67c03eed3726650a17e833 -> 0920a051b17cc5bf2dc7a60e27cabd93
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Mission1.cs: eeceac8fbd244175b7b1b8673327bf5a -> 9b4027609da4ba444d9d4e63a6998188
+  custom:scripting/monoscript/fileName/SliderRunTo1.cs: 73c58f101f6e429437bb116db7e05762 -> 
+  custom:scripting/monoscript/fileName/Necromancer.cs: 16fcba8c2cf3cb7ea75bacd98afe0f14 -> 86f1a90fc5a182b554f06cf026034568
+  custom:scripting/monoscript/fileName/Misssion3.cs: 7337842aeb9cc8b8d3b01d5e4194eea3 -> 530b4bf9a52e881e356eb695cdbdaa0f
+  custom:scripting/monoscript/fileName/PHPSelectServer.cs: b977f9aa6a6995b5c4bb8e8c1847d088 -> 418be40fe0cb4655b74f4ea44b412c85
+  custom:scripting/monoscript/fileName/JustRotate.cs: ebf81d7fd3895f1b81daf08173d4c810 -> 
+  custom:scripting/monoscript/fileName/Misssion2.cs: 501a2934648770e0c87338f256f356b0 -> 91814c463da8aa953c00b4cd886539e5
+  custom:scripting/monoscript/fileName/Druid.cs: 5a0d74177fcdfe2037b39e34906e0039 -> 2c3e4eca53f81bf5fcce823b30e9172f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/MissionController.cs: 8473b4fbe1a4ca3eec2dfb8423bdca9d -> 25e4ed25eb68defa296c7417cc118913
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BackgoundLoop.cs: 1e9b7603a832b6c99832b025286d304f -> 
+  custom:scripting/monoscript/fileName/PHPSelectCharacter.cs: a3a00d07b0bb91f8fd4e9b698e052b5c -> 4dd62c52601f8c3c48ea409747a05007
+  custom:scripting/monoscript/fileName/ScrollingObject.cs: 16943453e0c2bcb257511cf44becd66c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SliderValuePass.cs: f67912434870cfb9c8b5d2b2b82b5ea9 -> 
+  custom:scripting/monoscript/fileName/ColorSwap_PixelHeroes.cs: e4f3ffa9d01c6b2274ab889ba7f8022f -> 266514542c1fe4a7f0594272375a0c64
+  custom:scripting/monoscript/fileName/Priest.cs: 63bdf51eb16c85fb4ceec268abd4849c -> 8fa319870fbafe60897a877d121c69b6
+  custom:scripting/monoscript/fileName/CircleSlider.cs: 12893e82713c14acb558c638d2bffedb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Warlock.cs: aba8e0992d9ad9081a2449136549e884 -> 9ea707977e2d88dd3d2f79d3e34ad138
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Projectile_Rogue.cs: 7d6c2f56b6551b779fb6a24b27cf833f -> 0b0a96822555a0c06d19c056d57c82ba
+  custom:scripting/monoscript/fileName/Blademaster.cs: 550a27ea244f2d8a6f13c70fdcebe4cf -> b00cfa2d9af829c79cab520e81f3453b
+  custom:scripting/monoscript/fileName/ItemKeeper.cs: 30b477bec02a7733438243c51263eddd -> 0bae6dc56fb0df6948ec0ca9aaa5e819
+  custom:scripting/monoscript/fileName/Sensor_PixelHeroes.cs: a29eb414ec78bcf4b6d1acea8ceb3ab2 -> b7649f6ec16221802477386a7b8c1dc4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CharacterSlotManager.cs: 8ab7d4a01623f1420a8ec9d026ef9804 -> c25a344abee377b9a422b7a050dd89fd
+  custom:scripting/monoscript/fileName/IntroManager.cs: 7e37df1f844066d8f5935cf5432370da -> 6244ce9ac8cc96096ff6dc346f866a1d
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.338 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 991ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (344ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (219.4 KB). Loaded Objects now: 4555.
+Memory consumption went from 165.4 MB to 165.2 MB.
+Total: 3.771600 ms (FindLiveObjects: 0.546600 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.893600 ms  DeleteObjects: 0.195100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Alchemist.cs: eef8474b63f91905eaf41739bf3c5072 -> 182ae54d2d2f5a717e099a397bad83ba
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ServerManager.cs: 09105c06d5edcadce130f72871f6e868 -> 477b443ffd591b9b80b29fb7f48e8918
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/PHPGetServerInfo.cs: cee1c131e7520aed4adb94dfca5fcf1d -> 0576d028e7c79e0cfaa036cdae59c8e1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/DBController.cs: 835aa35bcc31f5215f9030479b578c5f -> 8a6c56aa21b1245af72473e6439d29b8
+  custom:scripting/monoscript/fileName/ServerBtnManager.cs: ecdbdb934e45840a44ddc7186d2c4ff5 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Barbarian.cs: 06991bdffcd1f5c6acdc3f4a51360a47 -> 89937b1e1d43ea451d0d20a54bafa8a1
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Rogue.cs: 2fa4d64265832b9841b08b5076a72c7e -> a8934a011b50cab38862a79d86fe13a3
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/StormMage.cs: 5318803ed9e8421082f1b2f84b69e264 -> b5f18c3db5f4071ca5b9e6a80b393e5d
+  custom:scripting/monoscript/fileName/PlayerController.cs: 417665ecbc391383b99ee15e672952c9 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/PHPLogIn.cs: a4e1e3f9e67c8eff3e40e3fdefbf5822 -> 6b516b2c27c727fd11d9dd2409becaa4
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/Scripts.cs: 2abada560274024bf235f99530aa3d0b -> 
+  custom:scripting/monoscript/fileName/CharacterSelector_PixelHeroes.cs: ed4e21b0ad1b8205d57253573c596440 -> c9f4ae6961ca104a844443c069acab14
+  custom:scripting/monoscript/fileName/Firemage.cs: ed9cd7a1fd67c03eed3726650a17e833 -> 0920a051b17cc5bf2dc7a60e27cabd93
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Mission1.cs: eeceac8fbd244175b7b1b8673327bf5a -> 9b4027609da4ba444d9d4e63a6998188
+  custom:scripting/monoscript/fileName/SliderRunTo1.cs: 73c58f101f6e429437bb116db7e05762 -> 
+  custom:scripting/monoscript/fileName/Necromancer.cs: 16fcba8c2cf3cb7ea75bacd98afe0f14 -> 86f1a90fc5a182b554f06cf026034568
+  custom:scripting/monoscript/fileName/Misssion3.cs: 7337842aeb9cc8b8d3b01d5e4194eea3 -> 530b4bf9a52e881e356eb695cdbdaa0f
+  custom:scripting/monoscript/fileName/PHPSelectServer.cs: b977f9aa6a6995b5c4bb8e8c1847d088 -> 418be40fe0cb4655b74f4ea44b412c85
+  custom:scripting/monoscript/fileName/JustRotate.cs: ebf81d7fd3895f1b81daf08173d4c810 -> 
+  custom:scripting/monoscript/fileName/Misssion2.cs: 501a2934648770e0c87338f256f356b0 -> 91814c463da8aa953c00b4cd886539e5
+  custom:scripting/monoscript/fileName/Druid.cs: 5a0d74177fcdfe2037b39e34906e0039 -> 2c3e4eca53f81bf5fcce823b30e9172f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/MissionController.cs: 8473b4fbe1a4ca3eec2dfb8423bdca9d -> 25e4ed25eb68defa296c7417cc118913
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BackgoundLoop.cs: 1e9b7603a832b6c99832b025286d304f -> 
+  custom:scripting/monoscript/fileName/PHPSelectCharacter.cs: a3a00d07b0bb91f8fd4e9b698e052b5c -> 4dd62c52601f8c3c48ea409747a05007
+  custom:scripting/monoscript/fileName/ScrollingObject.cs: 16943453e0c2bcb257511cf44becd66c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SliderValuePass.cs: f67912434870cfb9c8b5d2b2b82b5ea9 -> 
+  custom:scripting/monoscript/fileName/ColorSwap_PixelHeroes.cs: e4f3ffa9d01c6b2274ab889ba7f8022f -> 266514542c1fe4a7f0594272375a0c64
+  custom:scripting/monoscript/fileName/Priest.cs: 63bdf51eb16c85fb4ceec268abd4849c -> 8fa319870fbafe60897a877d121c69b6
+  custom:scripting/monoscript/fileName/CircleSlider.cs: 12893e82713c14acb558c638d2bffedb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Warlock.cs: aba8e0992d9ad9081a2449136549e884 -> 9ea707977e2d88dd3d2f79d3e34ad138
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Projectile_Rogue.cs: 7d6c2f56b6551b779fb6a24b27cf833f -> 0b0a96822555a0c06d19c056d57c82ba
+  custom:scripting/monoscript/fileName/Blademaster.cs: 550a27ea244f2d8a6f13c70fdcebe4cf -> b00cfa2d9af829c79cab520e81f3453b
+  custom:scripting/monoscript/fileName/ItemKeeper.cs: 30b477bec02a7733438243c51263eddd -> 0bae6dc56fb0df6948ec0ca9aaa5e819
+  custom:scripting/monoscript/fileName/Sensor_PixelHeroes.cs: a29eb414ec78bcf4b6d1acea8ceb3ab2 -> b7649f6ec16221802477386a7b8c1dc4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CharacterSlotManager.cs: 8ab7d4a01623f1420a8ec9d026ef9804 -> c25a344abee377b9a422b7a050dd89fd
+  custom:scripting/monoscript/fileName/IntroManager.cs: 7e37df1f844066d8f5935cf5432370da -> 6244ce9ac8cc96096ff6dc346f866a1d
+========================================================================
+Received Import Request.
+  Time since last request: 149012.812981 seconds.
+  path: Assets/package/0. Scenes/SampleSceneSettings.lighting
+  artifactKey: Guid(971a5b6b58030c84fad5b980c78d8ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/0. Scenes/SampleSceneSettings.lighting using Guid(971a5b6b58030c84fad5b980c78d8ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '806f16b9ea1276b465965b20e2807c4a') in 0.010917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 198.434168 seconds.
+  path: Assets/package/Casual Music Pack/Ambience/Amb Beach 2.wav
+  artifactKey: Guid(a90d418189a62d345b1cc1bab1f50851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Ambience/Amb Beach 2.wav using Guid(a90d418189a62d345b1cc1bab1f50851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f945d7bbb90fed766ebcd853fe6b5be9') in 0.161214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/package/Casual Music Pack/Ambience/Amb City 1.wav
+  artifactKey: Guid(b7690e893dd7d2a47a8c530bef9b81ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Ambience/Amb City 1.wav using Guid(b7690e893dd7d2a47a8c530bef9b81ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2129fa5fc4db09a47e7ae49f34bc2860') in 0.100727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/package/Casual Music Pack/Ambience/Amb Forest.wav
+  artifactKey: Guid(7047e9468b423f44d898cedfc5dca7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Ambience/Amb Forest.wav using Guid(7047e9468b423f44d898cedfc5dca7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f9d293a17d4e771589c5e76f01e4ba') in 0.336976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/package/Casual Music Pack/Ambience/Amb Park 1.wav
+  artifactKey: Guid(9406df14e5527a34e8ce3eab3e580915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Ambience/Amb Park 1.wav using Guid(9406df14e5527a34e8ce3eab3e580915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4f2c7005aa04813ac834e16fb00142') in 0.411643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.453729 seconds.
+  path: Assets/package/Casual Music Pack/Ambience/Amb School.wav
+  artifactKey: Guid(4d016421d6568da4cbab8c93f2f4ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Ambience/Amb School.wav using Guid(4d016421d6568da4cbab8c93f2f4ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8403f32283b66621f6ace89ebe58a0e2') in 0.349210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.258984 seconds.
+  path: Assets/package/Casual Music Pack/Music Loops/Casual Game Music 02 - Oriental.wav
+  artifactKey: Guid(1a1adaabb3e053b43980dcad4d714366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Music Loops/Casual Game Music 02 - Oriental.wav using Guid(1a1adaabb3e053b43980dcad4d714366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8ed1a3f04a0be77368bad7bb86de83') in 0.350079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/package/Casual Music Pack/Music Loops/Casual Game Music 13.wav
+  artifactKey: Guid(8287837c946b0924884db77c31ad18d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Music Loops/Casual Game Music 13.wav using Guid(8287837c946b0924884db77c31ad18d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb43e6c6f20eda758c9ed2df686f4512') in 0.356251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/package/Casual Music Pack/Music Loops/Casual Game Music 10 - Oriental.wav
+  artifactKey: Guid(b3ab7d46e6cd4c44191b3bae30799ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Music Loops/Casual Game Music 10 - Oriental.wav using Guid(b3ab7d46e6cd4c44191b3bae30799ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd258227d749f47b2ce710665bd945d32') in 0.516387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/package/Casual Music Pack/Jingles/Negative 7.wav
+  artifactKey: Guid(5e9f7070852054147b31c0155c4a207d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Jingles/Negative 7.wav using Guid(5e9f7070852054147b31c0155c4a207d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42cc388cfb3656cf73284ea24f752be') in 0.021033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/package/Casual Music Pack/Jingles/Negative 2.wav
+  artifactKey: Guid(5c0a82cdd3d529b4d911bd8d69fac7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Jingles/Negative 2.wav using Guid(5c0a82cdd3d529b4d911bd8d69fac7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47636b945f1b091d7b0bc89720abe4aa') in 0.026481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/package/Casual Music Pack/Jingles/Negative 8.wav
+  artifactKey: Guid(38dfc7062c23a6a45987c44385fe5adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Jingles/Negative 8.wav using Guid(38dfc7062c23a6a45987c44385fe5adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d3c923ec3187ee107c8f51a7142cf4') in 0.022666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/package/Casual Music Pack/Jingles/Positive 5.wav
+  artifactKey: Guid(45bc947026033f44495b7122b906557c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Jingles/Positive 5.wav using Guid(45bc947026033f44495b7122b906557c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1491813bc9da3f0e98752f3263c3275d') in 0.020706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/package/Casual Music Pack/Music Loops/Casual Game Music 20.wav
+  artifactKey: Guid(16672ee6e15b6384bbfa402181e7ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Music Loops/Casual Game Music 20.wav using Guid(16672ee6e15b6384bbfa402181e7ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dceae6161fdd66aa2ef048ceaecc330') in 0.239907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/package/Casual Music Pack/Jingles/Negative 10.wav
+  artifactKey: Guid(2adabc71101249b41a82cf2e1eab39dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Jingles/Negative 10.wav using Guid(2adabc71101249b41a82cf2e1eab39dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed0a40a745b57f08ceb78b7ff539fef') in 0.020700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/package/Casual Music Pack/Jingles/Negative 5.wav
+  artifactKey: Guid(a95a49e8527c2ab44a18abf1ab9bfdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Jingles/Negative 5.wav using Guid(a95a49e8527c2ab44a18abf1ab9bfdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388d6131af2325739a1c8c32f0159afc') in 0.017243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/package/Casual Music Pack/Music Loops/Casual Game Music 15 - Halloween.wav
+  artifactKey: Guid(f1ff5eb814baf824ea5779e8729b69c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Music Loops/Casual Game Music 15 - Halloween.wav using Guid(f1ff5eb814baf824ea5779e8729b69c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ccbad4f6130dad0dcac02a15eac80d') in 0.235968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/package/Casual Music Pack/Jingles/Positive 1.wav
+  artifactKey: Guid(581dd6d344afb61468a2c531c7f8d095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Jingles/Positive 1.wav using Guid(581dd6d344afb61468a2c531c7f8d095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce65a1a1b08dddab9580186bcd198d57') in 0.024371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/package/Casual Music Pack/Sound Effects/Special & Powerup (33).wav
+  artifactKey: Guid(96c59ac477a00ac49a2913b7058868d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Sound Effects/Special & Powerup (33).wav using Guid(96c59ac477a00ac49a2913b7058868d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4709f56836d846e31a0e6683cefd10db') in 0.019149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/package/Casual Music Pack/Sound Effects/Special & Powerup (31).wav
+  artifactKey: Guid(65e0b2806151dc141a4d5e1698254747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Sound Effects/Special & Powerup (31).wav using Guid(65e0b2806151dc141a4d5e1698254747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f253062edeed41ea5a052771eb032c6') in 0.011543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/package/Casual Music Pack/Jingles/Positive 2.wav
+  artifactKey: Guid(a7bb2afe1e5b8ac409d2682d82f25448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Jingles/Positive 2.wav using Guid(a7bb2afe1e5b8ac409d2682d82f25448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f066b68479077748d75387c76cf14942') in 0.029592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/package/Casual Music Pack/Sound Effects/Prize Wheel 2 Spin Long.wav
+  artifactKey: Guid(08e55479c3414ba49bb2a078f283a81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Sound Effects/Prize Wheel 2 Spin Long.wav using Guid(08e55479c3414ba49bb2a078f283a81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6119f964e8916b0f15edc6e0a816871') in 0.027459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/package/Casual Music Pack/Sound Effects/Coins (24).wav
+  artifactKey: Guid(2d481372860dc3a49ab70e04361ae843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Sound Effects/Coins (24).wav using Guid(2d481372860dc3a49ab70e04361ae843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2ebba686f2322631bd8f2ea0528560') in 0.019195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/package/Casual Music Pack/Jingles/Positive 4.wav
+  artifactKey: Guid(24f607de2338e9a4696578f938d4731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Jingles/Positive 4.wav using Guid(24f607de2338e9a4696578f938d4731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13bd484d9c80f14197916dcffc852a2') in 0.022589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/package/Casual Music Pack/Music Loops/Casual Game Music 08.wav
+  artifactKey: Guid(ceac6cbd8d61c7244ba5d476d38e9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package/Casual Music Pack/Music Loops/Casual Game Music 08.wav using Guid(ceac6cbd8d61c7244ba5d476d38e9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b2f865bcab5ec8f8cc31f24d7119be') in 0.314739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.338 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 926ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (589ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.80 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (219.2 KB). Loaded Objects now: 4568.
+Memory consumption went from 164.5 MB to 164.2 MB.
+Total: 2.523300 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.057500 ms  DeleteObjects: 0.143900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Alchemist.cs: eef8474b63f91905eaf41739bf3c5072 -> 182ae54d2d2f5a717e099a397bad83ba
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ServerManager.cs: 09105c06d5edcadce130f72871f6e868 -> 477b443ffd591b9b80b29fb7f48e8918
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/PHPGetServerInfo.cs: cee1c131e7520aed4adb94dfca5fcf1d -> 0576d028e7c79e0cfaa036cdae59c8e1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/DBController.cs: 835aa35bcc31f5215f9030479b578c5f -> 8a6c56aa21b1245af72473e6439d29b8
+  custom:scripting/monoscript/fileName/ServerBtnManager.cs: ecdbdb934e45840a44ddc7186d2c4ff5 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Barbarian.cs: 06991bdffcd1f5c6acdc3f4a51360a47 -> 89937b1e1d43ea451d0d20a54bafa8a1
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Rogue.cs: 2fa4d64265832b9841b08b5076a72c7e -> a8934a011b50cab38862a79d86fe13a3
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/StormMage.cs: 5318803ed9e8421082f1b2f84b69e264 -> b5f18c3db5f4071ca5b9e6a80b393e5d
+  custom:scripting/monoscript/fileName/PlayerController.cs: 417665ecbc391383b99ee15e672952c9 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/PHPLogIn.cs: a4e1e3f9e67c8eff3e40e3fdefbf5822 -> 6b516b2c27c727fd11d9dd2409becaa4
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/Scripts.cs: 2abada560274024bf235f99530aa3d0b -> 
+  custom:scripting/monoscript/fileName/CharacterSelector_PixelHeroes.cs: ed4e21b0ad1b8205d57253573c596440 -> c9f4ae6961ca104a844443c069acab14
+  custom:scripting/monoscript/fileName/Firemage.cs: ed9cd7a1fd67c03eed3726650a17e833 -> 0920a051b17cc5bf2dc7a60e27cabd93
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Mission1.cs: eeceac8fbd244175b7b1b8673327bf5a -> 9b4027609da4ba444d9d4e63a6998188
+  custom:scripting/monoscript/fileName/SliderRunTo1.cs: 73c58f101f6e429437bb116db7e05762 -> 
+  custom:scripting/monoscript/fileName/Necromancer.cs: 16fcba8c2cf3cb7ea75bacd98afe0f14 -> 86f1a90fc5a182b554f06cf026034568
+  custom:scripting/monoscript/fileName/Misssion3.cs: 7337842aeb9cc8b8d3b01d5e4194eea3 -> 530b4bf9a52e881e356eb695cdbdaa0f
+  custom:scripting/monoscript/fileName/PHPSelectServer.cs: b977f9aa6a6995b5c4bb8e8c1847d088 -> 418be40fe0cb4655b74f4ea44b412c85
+  custom:scripting/monoscript/fileName/JustRotate.cs: ebf81d7fd3895f1b81daf08173d4c810 -> 
+  custom:scripting/monoscript/fileName/Misssion2.cs: 501a2934648770e0c87338f256f356b0 -> 91814c463da8aa953c00b4cd886539e5
+  custom:scripting/monoscript/fileName/Druid.cs: 5a0d74177fcdfe2037b39e34906e0039 -> 2c3e4eca53f81bf5fcce823b30e9172f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/MissionController.cs: 8473b4fbe1a4ca3eec2dfb8423bdca9d -> 25e4ed25eb68defa296c7417cc118913
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BackgoundLoop.cs: 1e9b7603a832b6c99832b025286d304f -> 
+  custom:scripting/monoscript/fileName/PHPSelectCharacter.cs: a3a00d07b0bb91f8fd4e9b698e052b5c -> 4dd62c52601f8c3c48ea409747a05007
+  custom:scripting/monoscript/fileName/ScrollingObject.cs: 16943453e0c2bcb257511cf44becd66c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SliderValuePass.cs: f67912434870cfb9c8b5d2b2b82b5ea9 -> 
+  custom:scripting/monoscript/fileName/ColorSwap_PixelHeroes.cs: e4f3ffa9d01c6b2274ab889ba7f8022f -> 266514542c1fe4a7f0594272375a0c64
+  custom:scripting/monoscript/fileName/Priest.cs: 63bdf51eb16c85fb4ceec268abd4849c -> 8fa319870fbafe60897a877d121c69b6
+  custom:scripting/monoscript/fileName/CircleSlider.cs: 12893e82713c14acb558c638d2bffedb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Warlock.cs: aba8e0992d9ad9081a2449136549e884 -> 9ea707977e2d88dd3d2f79d3e34ad138
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Projectile_Rogue.cs: 7d6c2f56b6551b779fb6a24b27cf833f -> 0b0a96822555a0c06d19c056d57c82ba
+  custom:scripting/monoscript/fileName/Blademaster.cs: 550a27ea244f2d8a6f13c70fdcebe4cf -> b00cfa2d9af829c79cab520e81f3453b
+  custom:scripting/monoscript/fileName/ItemKeeper.cs: 30b477bec02a7733438243c51263eddd -> 0bae6dc56fb0df6948ec0ca9aaa5e819
+  custom:scripting/monoscript/fileName/Sensor_PixelHeroes.cs: a29eb414ec78bcf4b6d1acea8ceb3ab2 -> b7649f6ec16221802477386a7b8c1dc4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CharacterSlotManager.cs: 8ab7d4a01623f1420a8ec9d026ef9804 -> c25a344abee377b9a422b7a050dd89fd
+  custom:scripting/monoscript/fileName/IntroManager.cs: 7e37df1f844066d8f5935cf5432370da -> 6244ce9ac8cc96096ff6dc346f866a1d
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.411 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 1086ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (677ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.92 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (220.2 KB). Loaded Objects now: 4572.
+Memory consumption went from 164.7 MB to 164.5 MB.
+Total: 4.811000 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.566000 ms MarkObjects: 3.625000 ms  DeleteObjects: 0.329200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Alchemist.cs: eef8474b63f91905eaf41739bf3c5072 -> 182ae54d2d2f5a717e099a397bad83ba
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ServerManager.cs: 09105c06d5edcadce130f72871f6e868 -> 477b443ffd591b9b80b29fb7f48e8918
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/PHPGetServerInfo.cs: cee1c131e7520aed4adb94dfca5fcf1d -> 0576d028e7c79e0cfaa036cdae59c8e1
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/DBController.cs: 835aa35bcc31f5215f9030479b578c5f -> 8a6c56aa21b1245af72473e6439d29b8
+  custom:scripting/monoscript/fileName/ServerBtnManager.cs: ecdbdb934e45840a44ddc7186d2c4ff5 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Barbarian.cs: 06991bdffcd1f5c6acdc3f4a51360a47 -> 89937b1e1d43ea451d0d20a54bafa8a1
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Rogue.cs: 2fa4d64265832b9841b08b5076a72c7e -> a8934a011b50cab38862a79d86fe13a3
+  custom:scripting/monoscript/fileName/EnemyController.cs: 95cdb6bff3c5e80df3375de5026c231f -> 5b8537652ebdaba4b35050797ce3ce8d
+  custom:scripting/monoscript/fileName/StormMage.cs: 5318803ed9e8421082f1b2f84b69e264 -> b5f18c3db5f4071ca5b9e6a80b393e5d
+  custom:scripting/monoscript/fileName/PlayerController.cs: 417665ecbc391383b99ee15e672952c9 -> d93a52a180fbbe603a59e9aa6da73c83
+  custom:scripting/monoscript/fileName/PHPLogIn.cs: a4e1e3f9e67c8eff3e40e3fdefbf5822 -> 6b516b2c27c727fd11d9dd2409becaa4
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/Scripts.cs: 2abada560274024bf235f99530aa3d0b -> 
+  custom:scripting/monoscript/fileName/CharacterSelector_PixelHeroes.cs: ed4e21b0ad1b8205d57253573c596440 -> c9f4ae6961ca104a844443c069acab14
+  custom:scripting/monoscript/fileName/Firemage.cs: ed9cd7a1fd67c03eed3726650a17e833 -> 0920a051b17cc5bf2dc7a60e27cabd93
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Mission1.cs: eeceac8fbd244175b7b1b8673327bf5a -> 9b4027609da4ba444d9d4e63a6998188
+  custom:scripting/monoscript/fileName/SliderRunTo1.cs: 73c58f101f6e429437bb116db7e05762 -> 
+  custom:scripting/monoscript/fileName/Necromancer.cs: 16fcba8c2cf3cb7ea75bacd98afe0f14 -> 86f1a90fc5a182b554f06cf026034568
+  custom:scripting/monoscript/fileName/Misssion3.cs: 7337842aeb9cc8b8d3b01d5e4194eea3 -> 530b4bf9a52e881e356eb695cdbdaa0f
+  custom:scripting/monoscript/fileName/PHPSelectServer.cs: b977f9aa6a6995b5c4bb8e8c1847d088 -> 418be40fe0cb4655b74f4ea44b412c85
+  custom:scripting/monoscript/fileName/JustRotate.cs: ebf81d7fd3895f1b81daf08173d4c810 -> 
+  custom:scripting/monoscript/fileName/Misssion2.cs: 501a2934648770e0c87338f256f356b0 -> 91814c463da8aa953c00b4cd886539e5
+  custom:scripting/monoscript/fileName/Druid.cs: 5a0d74177fcdfe2037b39e34906e0039 -> 2c3e4eca53f81bf5fcce823b30e9172f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/MissionController.cs: 8473b4fbe1a4ca3eec2dfb8423bdca9d -> 25e4ed25eb68defa296c7417cc118913
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BackgoundLoop.cs: 1e9b7603a832b6c99832b025286d304f -> 
+  custom:scripting/monoscript/fileName/PHPSelectCharacter.cs: a3a00d07b0bb91f8fd4e9b698e052b5c -> 4dd62c52601f8c3c48ea409747a05007
+  custom:scripting/monoscript/fileName/ScrollingObject.cs: 16943453e0c2bcb257511cf44becd66c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SliderValuePass.cs: f67912434870cfb9c8b5d2b2b82b5ea9 -> 
+  custom:scripting/monoscript/fileName/ColorSwap_PixelHeroes.cs: e4f3ffa9d01c6b2274ab889ba7f8022f -> 266514542c1fe4a7f0594272375a0c64
+  custom:scripting/monoscript/fileName/Priest.cs: 63bdf51eb16c85fb4ceec268abd4849c -> 8fa319870fbafe60897a877d121c69b6
+  custom:scripting/monoscript/fileName/CircleSlider.cs: 12893e82713c14acb558c638d2bffedb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Warlock.cs: aba8e0992d9ad9081a2449136549e884 -> 9ea707977e2d88dd3d2f79d3e34ad138
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Projectile_Rogue.cs: 7d6c2f56b6551b779fb6a24b27cf833f -> 0b0a96822555a0c06d19c056d57c82ba
+  custom:scripting/monoscript/fileName/Blademaster.cs: 550a27ea244f2d8a6f13c70fdcebe4cf -> b00cfa2d9af829c79cab520e81f3453b
+  custom:scripting/monoscript/fileName/ItemKeeper.cs: 30b477bec02a7733438243c51263eddd -> 0bae6dc56fb0df6948ec0ca9aaa5e819
+  custom:scripting/monoscript/fileName/Sensor_PixelHeroes.cs: a29eb414ec78bcf4b6d1acea8ceb3ab2 -> b7649f6ec16221802477386a7b8c1dc4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CharacterSlotManager.cs: 8ab7d4a01623f1420a8ec9d026ef9804 -> c25a344abee377b9a422b7a050dd89fd
+  custom:scripting/monoscript/fileName/IntroManager.cs: 7e37df1f844066d8f5935cf5432370da -> 6244ce9ac8cc96096ff6dc346f866a1d
